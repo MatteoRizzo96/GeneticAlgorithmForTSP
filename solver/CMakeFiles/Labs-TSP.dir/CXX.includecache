@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/solvers/include/TSPsolver.h
+map
+-
+vector
+-
+../../utility/include/TSPsolution.h
+/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/utility/include/TSPsolution.h
+
+/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/solvers/include/TabuSearchSolver.h
+vector
+-
+iostream
+-
+../../utility/include/TSPsolution.h
+/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/utility/include/TSPsolution.h
+TSPsolver.h
+/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/solvers/include/TSPsolver.h
+
+/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/solvers/src/TabuSearchSolver.cpp
+../include/TabuSearchSolver.h
+/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/solvers/include/TabuSearchSolver.h
+../../utility/include/RandomNumbersGenerator.h
+/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/utility/include/RandomNumbersGenerator.h
+iostream
+-
+
+/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/utility/include/RandomNumbersGenerator.h
+algorithm
+-
+iostream
+-
+
+/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/utility/include/TSPsolution.h
+vector
+-
+

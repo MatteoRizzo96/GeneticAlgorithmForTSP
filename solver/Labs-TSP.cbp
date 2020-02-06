@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Labs-TSP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/matteo/Projects/Github/MeMoCO/Labs/solver"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/matteo/Projects/Github/MeMoCO/Labs/solver"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Labs-TSP">
+				<Option output="/home/matteo/Projects/Github/MeMoCO/Labs/solver/build/Labs-TSP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="../solver/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/ibm/ILOG/CPLEX_Studio128/cplex/include"/>
+					<Add directory="/opt/ibm/ILOG/CPLEX_Studio128/concert/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 Labs-TSP"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Labs-TSP/fast">
+				<Option output="/home/matteo/Projects/Github/MeMoCO/Labs/solver/build/Labs-TSP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="../solver/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/ibm/ILOG/CPLEX_Studio128/cplex/include"/>
+					<Add directory="/opt/ibm/ILOG/CPLEX_Studio128/concert/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 Labs-TSP/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/matteo/Projects/Github/MeMoCO/Labs/solver"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matteo/Projects/Github/MeMoCO/Labs/solver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/solvers/include/CPLEXsolver.h">
+			<Option target="Labs-TSP"/>
+		</Unit>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/solvers/include/GeneticAlgorithmSolver.h">
+			<Option target="Labs-TSP"/>
+		</Unit>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/solvers/include/TSPsolver.h">
+			<Option target="Labs-TSP"/>
+		</Unit>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/solvers/include/TabuSearchSolver.h">
+			<Option target="Labs-TSP"/>
+		</Unit>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/solvers/src/CPLEXsolver.cpp">
+			<Option target="Labs-TSP"/>
+		</Unit>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/solvers/src/GeneticAlgorithmSolver.cpp">
+			<Option target="Labs-TSP"/>
+		</Unit>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/solvers/src/TabuSearchSolver.cpp">
+			<Option target="Labs-TSP"/>
+		</Unit>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/utility/include/Params.h">
+			<Option target="Labs-TSP"/>
+		</Unit>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/utility/include/ProblemInstanceGenerator.h">
+			<Option target="Labs-TSP"/>
+		</Unit>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/utility/include/RandomNumbersGenerator.h">
+			<Option target="Labs-TSP"/>
+		</Unit>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/utility/include/TSPsolution.h">
+			<Option target="Labs-TSP"/>
+		</Unit>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/utility/include/TSPsolverScript.h">
+			<Option target="Labs-TSP"/>
+		</Unit>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/utility/src/Params.cpp">
+			<Option target="Labs-TSP"/>
+		</Unit>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/utility/src/ProblemInstanceGenerator.cpp">
+			<Option target="Labs-TSP"/>
+		</Unit>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/utility/src/RandomNumbersGenerator.cpp">
+			<Option target="Labs-TSP"/>
+		</Unit>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/utility/src/TSPsolution.cpp">
+			<Option target="Labs-TSP"/>
+		</Unit>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/classes/utility/src/TSPsolverScript.cpp">
+			<Option target="Labs-TSP"/>
+		</Unit>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/main.cpp">
+			<Option target="Labs-TSP"/>
+		</Unit>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/matteo/Projects/Github/MeMoCO/Labs/solver/cmake/FindCplex.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

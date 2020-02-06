@@ -1,0 +1,26 @@
+{
+  "comparison": "none",
+  "solver": "genetic",
+  "problem": "from_file",
+  "filename": "tsp12.dat",
+  "num_trials": 100,
+  "size": {
+    "start_size": 10,
+    "end_size": 60,
+    "step": 1
+  },
+  "time": {
+    "start_time": 0.1,
+    "end_time": 100,
+    "step": 10
+  },
+  "genetic_algorithm": {
+    "max_iter": 500,
+    "tolerance": 10,
+    "population_size": 500,
+    "elite_percentage": 0.1,
+    "mutation_percentage": 0.15,
+    "mutation_rate": 0.30,
+    "k": 0.1
+  }
+}
